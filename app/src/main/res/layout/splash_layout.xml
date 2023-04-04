@@ -16,11 +16,6 @@
         android:layout_marginLeft="15dp"
         android:src="@drawable/evilum" />
 
-    <com.google.android.material.progressindicator.CircularProgressIndicator
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:indicatorColor="#FFD369" />
-
 
     <com.google.android.material.progressindicator.CircularProgressIndicator
         android:layout_width="wrap_content"

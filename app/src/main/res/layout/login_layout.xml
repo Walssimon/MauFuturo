@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393E46"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:layout_width="215dp"
+        android:layout_height="215dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginBottom="35dp"
+        android:src="@drawable/evilum" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/usuario"
+        android:layout_width="280dp"
+        android:layout_height="75dp"
+        android:hint="Codename"
+        android:textColorHint="#D9D9D9"
+        app:boxBackgroundColor="#222831">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/senha"
+        android:layout_width="280dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="35dp"
+        android:hint="Código Secreto"
+        android:textColorHint="#D9D9D9"
+        app:boxBackgroundColor="#222831">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#FDD369"
+        android:text="Entrar"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>
